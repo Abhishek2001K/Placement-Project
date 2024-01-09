@@ -361,7 +361,7 @@ nav .fas{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(images/bg3.jpg);
+        background-image: url(https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg);
     }
     .header-text{
         margin-top: 100%;
