@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/581f904f78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/abhi.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <H1>Hi, I'm <span>Abhishek Kumar Pal</span><br>From Greater Noida</H1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -------about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/selfimage.jpg" alt="Abhishek">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello, I'm Abhishek Kumar Pal, currently residing in Greater Noida, originally from Ghazipur in Uttar Pradesh.<br>
+                        I am currently pursuing 4th year of Btech in the Department of Computer Science Engineering in Greater Noida Institute of Technology at Greater Noida.<br>My hobbies are listening to music, and travelling places with family and friends.
+
+                        My strengths are being a quick learner and positive thinking with moves those all around me forward.
+                        
+                        My short-term goal is to find a job that will enable me to gain experience and improve my skills.
+                        
+                        My long-term goal is to attain the best position in my area of work.
+                    </p>
+                    
+
+                    <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                       <p class="tab-links" onclick="opentab('education')">Education</p>
+                       
+                       
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programing Languages</span><br>Java,HTML,CSS,Javascript</li>
+                            <li><span>Web Development</span><br>Front-End Developer</li>
+                            <li><span>Problem Solving Skills</span><br>Using JAVA Programing Language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Software developer at GNIOT</li>
+                            <li><span>2023-march</span><br>Front-end Developer st Prodigy Infotech</li>
+                            <li><span>2022</span><br>Java Core From INCAPP Institute</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current-2024</span><br>BTech From Greater Noida Institute Of Technology</li>
+                            <li><span>Intermediate-2019</span><br>Central Acdemy School,Chopasni</li>
+                            <li><span>High School-2017</span><br>Central Academy School,Baner</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!--services  -->
+   <div id="services">
+   
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+           
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the design of websites. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers; however, since the mid-2010s, design for mobile and tablet browsers has become ever-increasingly important.</p>
+                <a href="https://www.interaction-design.org/literature/topics/web-design#what_is_web_design?-0">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h2>Problem Solving</h2>
+                
+                <p>Problem solving skills are the ability to identify and solve problems. When it comes to Java development, this means being able to find solutions to coding challenges, debugging errors, and working through difficult logic puzzles..</p><br>
+            
+                <a href="https://www.coursera.org/articles/full-stack-developer#:~:text=A%20full%2Dstack%20developer%20is,processing)%20require%20different%20skill%20sets.">Learn More</a>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Programmer</h2>
+                <p>Java is a popular programming language, created in 1995.
+
+                    It is owned by Oracle, and more than 3 billion devices run Java.
+                    
+                    It is used for:
+                    
+                        Mobile applications (specially Android apps)
+                        Desktop applications
+                        Web applications
+                        Web servers and application servers
+                        Games
+                        Database connection
+                        And much, much more!
+                    </p><br>
+                    <p>I have persuade Java Training Including Data Structure and Oops from INCAPP institute</p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- Portfolio -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/netflix clone.jpg">
+                <div class="layer">
+                    <h3>Online Streaming Site</h3>
+                    <p>The media and entertainment industry has always been at the forefront of tech innovation. An unspoken law reads, either change or die. That’s what the incumbents like Disney, Fox, Comcast, and Time Warner are still figuring out. That’s what streaming video services like Netflix, Amazon Instant Video, and Hulu have got covered<br>
+                        <a href="https://netflix-clone-58b09.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </p>
+                    
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Personel Portfolio Website</h3>
+                    <p> </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/yoga.jpg">
+                <div class="layer">
+                    <h3>Yoga Recommendation System for The Mental Well-Being of Students using Machine Learning
+                    </h3>
+                    <p> In recent time there is sharp increase in stress for youth, as the competition which
+                        previously people usually faced after college to find jobs, now youth at every stage is
+                        either facing competition or preparing for the competition they are going to face in 
+                        near future increasing the stress at every test and as these test don’t have much to do 
+                        with your physical health many student don’t do any form of physical exercise thus
+                        having a sedentary lifestyle</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rock paper scissor.jpg">
+                <div class="layer">
+                    <h3>Rock Paper Scissor Game
+                    </h3>
+                    <p> Rock paper scissors (commonly scissors, paper, rock or stone in Australia and New Zealand) is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/to do.jpg">
+                <div class="layer">
+                    <h3>To-do List
+                    </h3>
+                    <p> Time management is the process of planning and exercising conscious control of time spent on specific activities — especially to increase effectiveness, efficiency, and productivity.Done a Internship in Prodigy Infotech.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+
+   <!-- contact -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1>Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>abhi.pal701@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>7309107350</p>
+               <div class="social-icons">
+                <a href="https://www.instagram.com/abhi_pal107/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abhishek-pal-548814253/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+
+               </div>
+               <a href="images/ABHISHEK RESUME (1).pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form Name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"rows="6" placeholder="Your Message" ></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                    
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+            copyright @Kevin.Made with<i class="fa-solid fa-heart"></i> By Abhi  
+        </p>
+    </div>
+   </div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent .classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script> 
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxZ47YMCmFiYuTAHa6b-M5aw20OHkwmN6hAYiVJ2Ia3MkatB3taIzV3VHuxaB-fLCj7A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+
+    
+</body>
+
+</html>
